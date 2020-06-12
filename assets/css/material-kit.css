@@ -19,7 +19,6 @@
   height: 48px;
   border-radius: 10%;
   overflow: hidden;
-  margin-top: 6px;
 }
 
 
@@ -2269,6 +2268,7 @@ pre code {
     display: block;
     width: 100%;
     overflow-x: auto;
+    font-size: 0.75rem;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
   }
