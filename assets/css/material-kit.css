@@ -15475,7 +15475,7 @@ small,
 .footer-big h4 a,
 .media .media-heading,
 .media .media-heading a {
-  color: #000000;
+  color: #224670;
   text-decoration: none;
 }
 
@@ -17140,7 +17140,7 @@ footer .pull-center {
   position: absolute;
   bottom: 15px;
   left: 15px;
-  color: #ffffff;
+  color: #224670;
   font-size: 1.125rem;
   text-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
 }
@@ -17247,7 +17247,7 @@ footer .pull-center {
 .card[class*="bg-"] .card-title a,
 .card[class*="bg-"] .card-title,
 .card[class*="bg-"] .icon i {
-  color: #ffffff;
+  color: #224670;
 }
 
 .card [class*="header-"] .icon i,
@@ -18318,13 +18318,13 @@ footer .pull-center {
 }
 
 .profile-page .gallery {
-  margin-top: 3.213rem;
-  padding-bottom: 50px;
+--  margin-top: 3.213rem;
+--  padding-bottom: 50px;
 }
 
 .profile-page .gallery img {
-  width: 100%;
-  margin-bottom: 2.142rem;
+--  width: 100%;
+--  margin-bottom: 2.142rem;
 }
 
 .profile-page .follow .btn-fab {
