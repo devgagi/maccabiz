@@ -20,8 +20,16 @@
   border-radius: 10%;
   overflow: hidden;
 }
-
-
+.awsome-shadow {
+  --background-color: #fff;   
+  --color: #202c2d;
+  text-shadow:
+    0 1px #808d93,
+    -1px 0 #cdd2d5,
+    -1px 2px #808d93,
+    -2px 1px #cdd2d5,
+    -2px 3px #808d93;
+}
 
 .card {
   font-size: .875rem;
@@ -4277,6 +4285,7 @@ tbody.collapse.show {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  text-align: center;
 }
 
 .nav-link:hover,
@@ -14672,7 +14681,7 @@ textarea {
 }
 
 .navbar .navbar-toggler .navbar-toggler-icon {
-  background-color: #555;
+  background-color: #224670;
 }
 
 .navbar.fixed-top {
@@ -18490,7 +18499,7 @@ footer .pull-center {
   }
 
   .navbar-collapse .navbar-nav .nav-item .nav-link {
-    color: #000000;
+    color: #224670;
     margin: 5px 15px;
   }
 

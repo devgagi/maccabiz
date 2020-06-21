@@ -1,3 +1,6 @@
+body {
+  background-color: #eee;
+}
 .hello {
   opacity: 1 !important;
 }
@@ -24,7 +27,7 @@
   margin: auto;
 }
 .byebye {
-  --opacity: 0;
+  opacity: 0;
 }
 .byebye:hover {
   transform: scale(0.2) !important;
