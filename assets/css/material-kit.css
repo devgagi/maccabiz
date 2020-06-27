@@ -20,15 +20,13 @@
   border-radius: 10%;
   overflow: hidden;
 }
+
 .awsome-shadow {
-  --background-color: #fff;   
-  --color: #202c2d;
-  text-shadow:
-    0 1px #808d93,
-    -1px 0 #cdd2d5,
-    -1px 2px #808d93,
-    -2px 1px #cdd2d5,
-    -2px 3px #808d93;
+text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.awsome-shadow-light {
+text-shadow: 2px 4px 3px #ecfbfd;
 }
 
 .card {
@@ -2094,11 +2092,11 @@ pre code {
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #ecfbfd;
 }
 
 .table-hover tbody tr:hover {
-  background-color: rgba(0, 0, 0, 0.075);
+  background-color: #e0f8fc;
 }
 
 .table-primary,
@@ -6446,7 +6444,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #6c757d !important;
+  background-color: #ecfbfd !important;
 }
 
 a.bg-secondary:hover,
@@ -14668,8 +14666,8 @@ textarea {
   border-radius: 3px;
   padding: 0.625rem 0;
   margin-bottom: 20px;
-  color: #555;
-  background-color: #ffffff !important;
+  color: #224670;
+  background-color: #ecfbfd !important;
   box-shadow: 0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15);
 }
 
@@ -15495,7 +15493,7 @@ h2.title {
 .description,
 .card-description,
 .footer-big p {
-  color: #999;
+  color: #224670;
 }
 
 .text-warning {
