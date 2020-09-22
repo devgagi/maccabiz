@@ -16,6 +16,7 @@
 
 .logo-image {
   width: 88px;
+  height: auto;
   border-radius: 10%;
   overflow: hidden;
 }
@@ -16807,6 +16808,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
   border-radius: inherit;
 }
 
+
 .ripple-container .ripple-decorator {
   position: absolute;
   width: 20px;
@@ -18559,6 +18561,17 @@ footer .pull-center {
     -ms-transition: transform 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: transform 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
+  
+  .navbar:not(.navbar-transparent) .logo-small {
+    width: 46px;
+    height: 46px;
+    overflow: hidden;
+    margin-top: -6px;
+    display: block;
+}
+.navbar.navbar-transparent .logo-small, .navbar:not(.navbar-transparent) .logo-big {
+    display: none;
+}
 
   .navbar .dropdown.show .dropdown-menu {
     display: block;
